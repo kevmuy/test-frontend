@@ -4,183 +4,169 @@
         {
           "id": 1,
           "name": "Pepito Perez",
-          "role": "Asignador",
-          "phone": "3123456789",
           "email": "pperez@perez.com",
-          "password": " pperezs123",
-          "store": "MUY 79"
+          "password": "pperezs123"
         },
         {
           "id": 2,
-          "name": "Juanito Gonzalez",
-          "role": "Domiciliario",
-          "phone": "3098765432",
+          "name": "Juanpis Gonzalez",
           "email": "jgonzalez@gonzalez.com",
-          "password": "jgonzalez123",
-          "store": "MUY 79"
-        },
-        {
-          "id": 3,
-          "name": "Carlos Avila",
-          "role": "Domiciliario",
-          "phone": "3120987654",
-          "email": "cavila@avila.com",
-          "password": " cavila123",
-          "store": "MUY 79"
-        },
-        {
-          "id": 4,
-          "name": "Raúl Meza",
-          "role": "Asignador",
-          "phone": "3167234095",
-          "email": "rmeza@meza.com",
-          "password": "rmeza123",
-          "store": "MUY 13-35"
-        },
-        {
-          "id": 5,
-          "name": "Juan Gomez",
-          "role": "Domiciliario",
-          "phone": "3124323432",
-          "email": "jgomez@gomez.com",
-          "password": " jgomez123",
-          "store": "MUY 13-35"
-        },
-        {
-          "id": 6,
-          "name": "Raúl Meza",
-          "role": "Domiciliario",
-          "phone": "3167234095",
-          "email": "rmeza@meza.com",
-          "password": "rmeza123",
-          "store": "MUY 13-35"
-        },
-        {
-          "id": 7,
-          "name": "Miguel Blanco",
-          "role": "Asignador",
-          "phone": "3167234095",
-          "email": "mblanco@blanco.com",
-          "password": "mblanco123",
-          "store": "MUY 90"
-        },
-        {
-          "id": 8,
-          "name": "Jose Vega",
-          "role": "Domiciliario",
-          "phone": "3167234095",
-          "email": "jvega@vega.com",
-          "password": "jvega123",
-          "store": "MUY 90"
-        },
-        {
-          "id": 9,
-          "name": "Angel Rodriguez",
-          "role": "Domiciliario",
-          "phone": "3167234095",
-          "email": "arodriguez@rodriguez.com",
-          "password": "arodriguez123",
-          "store": "MUY 90"
+          "password": "jgonzalez123"
         }
       ],
-      "orders": [
+      "stores": [
         {
           "id": 1,
-          "userName": "Sergio Calvo",
-          "store": "MUY 79",
-          "createdDate": "2019-09-21 12:39:29",
+          "name": "Pizzeria Capitan America",
+          "address": "Calle 1 #2-3",
           "products": [
             {
               "id": 1,
-              "name": "MUY Paisa"
+              "name": "Pizza de Pollo"
             },
             {
               "id": 2,
-              "name": "MUY Cubano"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "userName": "Andres Lozano",
-          "store": "MUY 79",
-          "createdDate": "2019-09-21 13:39:29",
-          "products": [
-            {
-              "id": 1,
-              "name": "MUY Paisa"
-            },
-            {
-              "id": 2,
-              "name": "MUY Cubano"
+              "name": "Piza Pollo y Champiñones"
             },
             {
               "id": 3,
-              "name": "MUY Casero"
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "userName": "Armando Pinzon",
-          "store": "MUY 90",
-          "createdDate": "2019-09-21 14:39:29",
-          "products": [
-            {
-              "id": 3,
-              "name": "MUY Casero"
+              "name": "Pizza Vegetales"
             },
             {
               "id": 4,
-              "name": "MUY Albondigas"
+              "name": "Pizza Vegetales y Atun "
             },
             {
               "id": 5,
-              "name": "MUY Arroz con pollo"
+              "name": "Pizza 3 Quesos con Champiñones"
+            },
+            {
+              "id": 6,
+              "name": "Pizza Jamon y Queso"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Pizzeria Iron Man",
+          "address": "Calle 2 #3-4",
+          "products": [
+            {
+              "id": 1,
+              "name": "Pizza de Pollo"
+            },
+            {
+              "id": 2,
+              "name": "Piza Pollo y Champiñones"
+            },
+            {
+              "id": 3,
+              "name": "Pizza Vegetales"
+            },
+            {
+              "id": 4,
+              "name": "Pizza Vegetales y Atun "
+            },
+            {
+              "id": 5,
+              "name": "Pizza 3 Quesos con Champiñones"
+            },
+            {
+              "id": 6,
+              "name": "Pizza Jamon y Queso"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Pizzeria Thor",
+          "address": "Calle 3 #4-5",
+          "products": [
+            {
+              "id": 1,
+              "name": "Pizza de Pollo"
+            },
+            {
+              "id": 2,
+              "name": "Piza Pollo y Champiñones"
+            },
+            {
+              "id": 3,
+              "name": "Pizza Vegetales"
+            },
+            {
+              "id": 4,
+              "name": "Pizza Vegetales y Atun "
+            },
+            {
+              "id": 5,
+              "name": "Pizza 3 Quesos con Champiñones"
+            },
+            {
+              "id": 6,
+              "name": "Pizza Jamon y Queso"
             }
           ]
         },
         {
           "id": 4,
-          "userName": "Nicolas Badillo",
-          "store": "MUY 90",
-          "createdDate": "2019-09-21 15:39:29",
+          "name": "Pizzeria Black Widow",
+          "address": "Calle 4 #5-6",
           "products": [
             {
+              "id": 1,
+              "name": "Pizza de Pollo"
+            },
+            {
+              "id": 2,
+              "name": "Piza Pollo y Champiñones"
+            },
+            {
+              "id": 3,
+              "name": "Pizza Vegetales"
+            },
+            {
+              "id": 4,
+              "name": "Pizza Vegetales y Atun "
+            },
+            {
+              "id": 5,
+              "name": "Pizza 3 Quesos con Champiñones"
+            },
+            {
               "id": 6,
-              "name": "MUY MUY Casero"
-            },
-            {
-              "id": 7,
-              "name": "MUY MUY Albondigas"
-            },
-            {
-              "id": 8,
-              "name": "MUY MUY Arroz con pollo"
+              "name": "Pizza Jamon y Queso"
             }
           ]
         },
         {
           "id": 5,
-          "userName": "Manuel Arciniegas",
-          "store": "MUY 13-35",
-          "createdDate": "2019-09-21 11:39:29",
+          "name": "Pizzeria Spider Man",
+          "address": "Calle 5 #6-7",
           "products": [
             {
-              "id": 9,
-              "name": "MUY Asado"
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "userName": "Sebastian Peralta",
-          "store": "MUY 13-35",
-          "createdDate": "2019-09-21 16:39:29",
-          "products": [
+              "id": 1,
+              "name": "Pizza de Pollo"
+            },
+            {
+              "id": 2,
+              "name": "Piza Pollo y Champiñones"
+            },
+            {
+              "id": 3,
+              "name": "Pizza Vegetales"
+            },
+            {
+              "id": 4,
+              "name": "Pizza Vegetales y Atun "
+            },
+            {
+              "id": 5,
+              "name": "Pizza 3 Quesos con Champiñones"
+            },
             {
               "id": 6,
-              "name": "MUY Desayuno"
+              "name": "Pizza Jamon y Queso"
             }
           ]
         }
